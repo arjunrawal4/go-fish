@@ -1,20 +1,23 @@
 body { 
     font: 13px Helvetica, Arial; 
 }
-form { 
+.inlined {
+    display:inline;
+}
+.form-m { 
     background: #aaa; 
     padding: 4px; 
     position: fixed; 
     bottom: 0; 
     width: 100%; 
 }
-form input { 
+.form-m input { 
     border: 0; 
     padding: 10px; 
     width: 90%; 
     margin-right: 0.5%;
 }
-form button { 
+.form-m button { 
     width: 9%; 
     background: rgb(130, 224, 255); 
     border: none; 
